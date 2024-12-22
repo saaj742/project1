@@ -1,0 +1,382 @@
+/* common css start */
+*{
+    margin: o;
+    padding: 0;
+    outline: 0;
+    font-family: "Open Sans", serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,li{
+    list-style-type: none;
+    display: inline-block;
+}
+ul,li,a{
+    display:block;
+    color: white;
+}
+.nav-link {
+	display: block;
+	
+	color: white;
+	text-decoration: none;
+}	
+/* common css end */
+.btn{
+    padding: 20px;
+    background: seagreen;
+    border-radius: 20px;
+}
+#headerpart{
+   
+}
+ol,ul{
+    text-decoration: none;
+}
+#bannerpart{
+    padding: 100px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background: navy;
+    color: azure;
+}
+.nav-link ul li a{
+	
+	color: azure;
+	
+}
+.picitem1 img{
+    width: 50%;
+    
+}
+.picitem2 img{
+    width: 50%;
+    
+}
+.picitem3 img{
+    width: 50%;
+   
+}
+.picitem4 img{
+    width: 50%;
+   
+}
+
+#bannerpart{
+    background:url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    
+   
+}
+#picpartshado{
+   
+}
+/* banner part start */
+.bannertext h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.bannertext p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.picitem{
+   
+    top: 0;
+   
+    position: relative;
+    width: 100%;
+    
+ 
+}
+.picitem img{
+    position: absolute;
+    height: 250px;
+    top: 0;
+    vertical-align: middle;
+   
+   
+
+}
+.flex{
+    display: flex;
+    margin-left: 50px;
+}
+.imgtext h1{
+   font-size: 45px;
+}
+
+
+.btn1{
+    padding: 20px;
+    background: seagreen;
+    border-radius: 30px; 
+}
+.btn2{
+    padding: 20px;
+    background: seagreen;
+    border-radius: 30px; 
+  
+}
+.btn1:hover{
+    background: yellowgreen;
+
+}
+.btn2:hover{
+    background: sandybrown;
+}
+.ptext h2{
+    font-size: 64px;
+    color: #1BBF00;
+    font-weight: 800;
+   
+    padding-top: 200px;
+}
+
+.ptext p{
+    font-size: 26px;
+    color: #4F585F;
+    font-weight: 400;
+   
+   
+}
+
+#textpart{
+    padding:200px ;
+    position: relative;
+}
+.imgbg img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* banner part end */
+/* q text item start */
+#qtextpart{
+    padding: 100px 0;
+
+    
+}
+.imgbg img{
+    width: 20%;
+}
+.qtextitem1 img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.qtextitem2 img{
+    width: 100%;
+   
+}
+.qtextitem4 img{
+    width: 100%;
+    padding-bottom: 40px;
+    
+   
+}
+.qtextitem3 img{
+    width: 100%;
+    vertical-align: middle;  
+   
+}
+
+
+
+.qtop h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.qtop p{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.qtop1{
+    padding-top: 100px;
+}
+   
+
+.p1text p{
+   
+}
+.qbtn a{
+    
+    padding: 20px;
+    border-radius: 30px;
+    background: #1BBF00;
+    color: azure;
+}
+.qbtn a:hover{
+    background: #4F585F;
+}
+/* q titem end */
+.des a{
+    border-radius: 30px;
+    padding: 10px;
+    background:#1BBF00;
+    color: antiquewhite;
+}
+/* wdesimg part start */
+.wdesingpart{
+    padding: 100px 0;
+}
+.desimg1 img{
+    vertical-align: middle;
+  
+
+}
+
+/* wdesimg part start */
+/* select part start */
+#selectpart{
+   padding: 200px 0;
+}
+.selrightpic img{
+    width: 50%;
+    position: relative;
+    
+}
+.selimg img{
+    width: 100%;
+   
+}
+.sltext h2{
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.selecttop p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 80px;
+}
+.selrrp img{
+    position: absolute;
+    text-align: center;
+
+}
+.selv img{
+    width:10%;
+    right: 0;
+    bottom: 0;
+   
+}
+/* emoji part start */
+#emojipart{
+    padding: 100px;
+    box-sizing: border-boxSq;
+}
+.etext h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    font-weight: 600;
+}
+.emojitext p{
+    text-align: center;
+    font-size: 20px;
+}
+.emojitext h1{
+    text-align: center;
+    text-align: center;
+    font-size: 50px;
+    color: #1BBF00;
+    font-weight: 600;
+}
+/* emoji part end */
+/* think part start */
+.thinkitem img{
+   width: 70%;
+   vertical-align: middle;
+}
+.star i{
+    font-size: 40px;
+    color: orangered;
+   padding-right: 30px;
+   text-align: center;
+   
+}
+.stext p{
+    text-align: center;
+}
+.sfoot h4{
+    font-size: 28px;
+    font-family: 400;
+}
+.sfoot p{
+    font-size: 18px;
+    font-family: 400;
+}
+/* think part end */
+/* flat part start */
+#flatpart{
+    padding: 100px 0;
+}
+.flattext ul li a{
+    display: inline-block;
+}
+.fflat a{
+    text-decoration: none;
+    display: inline-block;
+}
+.flatitem img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+/* flat item end */
+/* footer part start */
+#footerpart{
+    padding: 100px 0;
+    background: steelblue;
+}
+
+.footerLogo p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin-top: 30px;
+    margin-right: 65px;
+}
+
+.footerItem ul{
+    padding: 0;
+}
+
+.footerItem h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgb(45, 0, 128);
+    margin-bottom: 40px;
+}
+
+
+.footerItem ul li a:hover{
+    color: #6A4DF4;
+}
+.footerLogo p{
+    color: white;
+}
+
+.footerItem ul li a{
+    font-size: 16px;
+    line-height: 40px;
+    color:white;
+    transition: .5s;
+}
+/* footer part end */
+
+
+
